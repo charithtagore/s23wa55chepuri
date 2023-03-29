@@ -2,9 +2,9 @@ var express = require('express');
 var router = express.Router();
 var x = Math.random();
 
-var val1="Math.log2(x) of value "+ x + " is "+ Math.log2(x) 
-var val2="Math.cosh(x) of value "+ x +" is "+ Math.cosh(x)
-var val3= "Math.floor(x) of value "+ x + " is "+ Math.floor(x)
+var val1="Math.cos(x) of value "+ x + " is "+ Math.cos(x) 
+var val2="Math.asin(x) of value "+ x +" is "+ Math.asin(x)
+var val3= "Math.asinh(x) of value "+ x + " is "+ Math.asinh(x)
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
